@@ -1,0 +1,30 @@
+#transaction-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-btn {
+  height: 70px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+
+  .amount-div {
+    margin: 0 10px;
+  }
+
+  .info-div {
+    display: flex;
+    flex-direction: column;
+
+    div {
+      display: flex;
+    }
+  }
+
+  > i {
+    margin-left: auto;
+  }
+}

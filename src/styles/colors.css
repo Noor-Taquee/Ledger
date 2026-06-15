@@ -1,0 +1,20 @@
+[data-theme="light"] {
+  --absolute-bg: #fff;
+  --primary-bg: #f2efea;
+  --secondary-bg: #a8b5a2;
+
+  --absolute-color: #000;
+  --primary-text-color: #5e6b55;
+  --secondary-text-color: #202020;
+  --tertiary-text-color: #88977d;
+}
+
+[data-theme="dark"] {
+  --absolute-bg: #000;
+  --primary-bg: #101010;
+  --secondary-bg: #a8b5a2;
+
+  --absolute-color: #ffffff;
+  --primary-text-color: #5e6b55;
+  --secondary-text-color: #202020;
+}

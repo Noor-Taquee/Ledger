@@ -1,0 +1,86 @@
+/*#region MARK: animations */
+
+@keyframes flip {
+  to {
+    transform: rotateX(180deg);
+  }
+}
+@keyframes flip-first-half {
+  to {
+    transform: rotateX(90deg);
+  }
+}
+@keyframes flip-second-half {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  transform-origin: center;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes slide-in-bottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.anim-slide-in-bottom {
+  animation: slide-in-bottom 500ms ease-out;
+}
+
+@keyframes scan-loading {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+  /* 100% { background-position: 0% 0%; } */
+}
+.scan-loading {
+  min-width: 100px;
+  min-height: 30px;
+  background: linear-gradient(
+    135deg,
+    var(--secondary-bg) 0% 40%,
+    var(--primary-text-color) 45% 55%,
+    var(--secondary-bg) 60% 100%
+  );
+  background-size: 300% 300%;
+  animation: scan-loading 1.5s ease infinite;
+}
+
+/*#endregion */
