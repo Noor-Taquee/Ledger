@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    // Linter
+    "dbaeumer.vscode-eslint",
+
+    // Code formatter
+    "esbenp.prettier-vscode",
+
+    // Icon theme
+    "pkief.material-icon-theme",
+
+    // Theme
+    "sdras.night-owl"
+  ]
+}

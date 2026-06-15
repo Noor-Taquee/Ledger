@@ -1,0 +1,47 @@
+{
+  "create HTML element": {
+    "scope": "javascript,typescript",
+    "prefix": "cel",
+    "body": ["createElement(\"${1:element}\")$0"],
+    "description": "Creates an HTMLElement",
+  },
+
+  "create div": {
+    "scope": "javascript,typescript",
+    "prefix": "div",
+    "body": [
+      "createElement(\"div\", {",
+      "  className: \"${1:className}\",",
+      "  id: \"${2:id}\",",
+      "});",
+      "$0",
+    ],
+    "description": "Creates an HTMLDivElement",
+  },
+
+  "create paragraph": {
+    "scope": "javascript,typescript",
+    "prefix": "p",
+    "body": [
+      "createElement(\"p\",{",
+      "  textContent: \"${1:text}\",",
+      "});",
+      "$0",
+    ],
+    "description": "Creates an HTMLParagraphElement",
+  },
+
+  "create button": {
+    "scope": "javascript,typescript",
+    "prefix": "button",
+    "body": [
+      "createElement(\"button\",{",
+      "  title: \"${1:title}\",",
+      "  id: \"${2:id}\",",
+      "  className: \"${3:className}\",",
+      "});",
+      "$0",
+    ],
+    "description": "creates an HTMLButtonElement",
+  },
+}

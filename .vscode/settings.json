@@ -1,0 +1,56 @@
+{
+  //#region: MARK: font
+  "editor.fontFamily": "'Google Sans Code', JetBrains Mono, Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 1.5,
+  "editor.cursorSmoothCaretAnimation": "on",
+  //#endregion: font
+
+  //#region: MARK: formating
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  //#endregion: formating
+
+  //#region: MARK: snippets
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.snippetSuggestions": "top",
+
+  // Enables snippet autocompletion inside text, code, strings, and markdown
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+  //#endregion: snippets
+
+  // #region: MARK: js/ts
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  // #endregion: js/ts
+
+  // #region: MARK: Git
+  "git.enableSmartCommit": false
+  // #region: Git
+}
