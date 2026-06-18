@@ -36,7 +36,7 @@
   //#region: MARK: snippets
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "inline",
 
   // Enables snippet autocompletion inside text, code, strings, and markdown
   "editor.quickSuggestions": {
